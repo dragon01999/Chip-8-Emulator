@@ -13,7 +13,7 @@ struct Chip8 {
     uint8_t v[16];
 };
 
-void load_game(struct *Chip8);
+void load_game(struct Chip8 *chip, char *rom);
 
 #endif
 
